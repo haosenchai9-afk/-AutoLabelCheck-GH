@@ -1,0 +1,6 @@
+# 存储GitHub访问凭证（请替换为你的实际信息）
+# 生成令牌地址：https://github.com/settings/tokens（需勾选repo权限）
+MCP_GITHUB_TOKEN=ghp_你的实际GitHub令牌（格式：ghp_开头，36位字符）
+
+# 目标仓库所属组织/用户名（例如仓库"octocat/missing-semester"，则填"octocat"）
+GITHUB_EVAL_ORG=目标仓库的组织名或个人用户名
