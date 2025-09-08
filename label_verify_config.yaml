@@ -1,0 +1,17 @@
+# 目标仓库名称（例如"missing-semester"）
+target_repo: missing-semester
+
+# Issue编号范围（格式："min-max"，用于区分Issue和PR）
+# 规则：编号在此范围内为Issue，超出则为PR
+issue_range: 1-15
+
+# 待验证的Issue/PR编号及预期标签
+# 格式：编号: [标签1, 标签2, ...]（标签需与GitHub上的实际标签名完全一致）
+expected_labels:
+  9: ["assigned-jonhoo", "assigned-anishathalye"]   # Issue #9的预期标签
+  14: ["assigned-jonhoo", "assigned-anishathalye"]  # Issue #14的预期标签
+  15: ["assigned-anishathalye"]                     # Issue #15的预期标签
+  21: ["assigned-anishathalye"]                     # PR #21的预期标签
+  22: ["assigned-anishathalye"]                     # PR #22的预期标签
+  23: ["assigned-anishathalye"]                     # PR #23的预期标签
+  24: ["assigned-anishathalye"]                     # PR #24的预期标签
